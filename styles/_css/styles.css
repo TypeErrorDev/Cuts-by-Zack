@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/* ============================================= */
+/*                    COLORS                     */
+/* ============================================= */
+/* ===== Mixin ===== */
+/* ===== Example ===== */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -307,6 +314,93 @@ template {
  */
 [hidden] {
   display: none;
+}
+
+body {
+  background-color: #242429;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(248, 248, 248);
+  align-items: center;
+  margin: 0 0.625rem;
+}
+
+.hero-headline {
+  font-family: Kanit, sans-serif;
+  font-size: 2.75rem;
+  text-transform: uppercase;
+  line-height: 0.8;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+#headline-text {
+  font-family: Montserrat, sans-serif;
+  font-size: 0.8125rem;
+  line-height: 1.6;
+}
+
+.navbar__logo--tablet {
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  .navbar__logo--tablet {
+    display: block;
+  }
+}
+
+.hero-content__img {
+  width: 120%;
+}
+
+/* ============================================= */
+/*               NAVBAR STYLES                   */
+/* ============================================= */
+#navbar {
+  overflow: hidden;
+  background-color: #242429;
+  padding: 0 0.625rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+}
+
+.navbar__logo {
+  display: flex;
+  flex-direction: row;
+}
+
+#navbar__logo-text {
+  color: rgb(248, 248, 248);
+  font-size: x-large;
+  font-family: Kanit, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+#navbar__logo-text em {
+  font-weight: 200;
+}
+
+.navbar__menu {
+  fill: rgb(248, 248, 248);
+  padding-right: 1.875rem;
+}
+
+/* ============================================= */
+/*               NAVBAR STYLES                   */
+/* ============================================= */
+.sticky {
+  position: fixed;
+  top: 0;
+}
+
+.sticky + .hero-content {
+  padding-top: 60px;
 }
 
 /*# sourceMappingURL=styles.css.map */

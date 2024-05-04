@@ -1,0 +1,15 @@
+@use "../utilities/variables" as *;
+@use "../utilities/functions" as *;
+@use "../utilities/mixins" as *;
+
+.navbar__logo--tablet {
+    display: none;
+    @include layout(tablet) {
+        display: block;
+        // padding-right: rem(10);
+    }
+}
+
+.hero-content__img {
+    width: 120%;
+}

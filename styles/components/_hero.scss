@@ -1,0 +1,28 @@
+@use "../utilities/variables" as *;
+@use "../utilities/functions" as *;
+@use "../utilities/mixins" as *;
+@use "../base/typography" as *;
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    background-color: $white;
+    align-items: center;
+    margin: 0 rem(10);
+    // padding: 0 rem(10);
+}
+
+.hero-headline {
+    font-family: Kanit, sans-serif;
+    font-size: rem(44);
+    text-transform: uppercase;
+    line-height: 0.8;
+    margin-bottom: 0;
+    text-align: center;
+}
+#headline-text {
+    font-family: Montserrat, sans-serif;
+    font-size: rem(13);
+    line-height: 1.6;
+    // max-width: rem(200);
+}

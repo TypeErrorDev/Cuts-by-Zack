@@ -1,0 +1,47 @@
+@use "../utilities/variables" as *;
+@use "../utilities/functions" as *;
+@use "../utilities/mixins" as *;
+@use "../base/typography" as *;
+
+/* ============================================= */
+/*               NAVBAR STYLES                   */
+/* ============================================= */
+#navbar {
+    overflow: hidden;
+    background-color: $black;
+    padding: 0 rem(10);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+}
+
+.navbar__logo {
+    display: flex;
+    flex-direction: row;
+}
+#navbar__logo-text {
+    color: $white;
+    font-size: x-large;
+    font-family: Kanit, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+#navbar__logo-text em {
+    font-weight: 200;
+}
+.navbar__menu {
+    fill: $white;
+    padding-right: rem(30);
+}
+
+/* ============================================= */
+/*               NAVBAR STYLES                   */
+/* ============================================= */
+.sticky {
+    position: fixed;
+    top: 0;
+}
+.sticky + .hero-content {
+    padding-top: 60px;
+}

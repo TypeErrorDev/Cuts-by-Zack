@@ -23,8 +23,8 @@
 ### Built with
 
 -   [SASS (v1.76.0)](https://sass-lang.com/)
--   [Tailwinds CSS (v3.4.3)](https://tailwindcss.com/)
 -   [JavaScript (ES2023)](https://tc39.es/ecma262/2023/)
+-   [BEM Naming Conventions](https://getbem.com/)
 
 ## Author
 
