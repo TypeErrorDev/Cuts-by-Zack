@@ -2,11 +2,17 @@ Layout:
     ☐ Grid layout with flex contents?
 
 Images:
-    ☐ header background
-    ☐ action pics for content
+    ✔ header background @started(24-05-05 00:54) @done(24-05-05 00:54) @lasted(23s)
+    ✔ action pics for content @started(24-05-05 00:54) @done(24-05-05 00:54) @lasted(29s)
 
 Testimonials:
-    ☐ gather the reviews for testimonials
+    ✔ gather the reviews for testimonials @started(24-05-05 00:54) @done(24-05-05 00:54) @lasted(33s)
     ☐ scrolling testimonials?
         ☐ animated testimonials?
         
+Booking:
+    ☐ link calendly to the button
+    ☐ do i want to have an auto carosel of pictures for the booking section?
+
+Navbar:
+    ☐ Need to fix the jumping when scrolling
