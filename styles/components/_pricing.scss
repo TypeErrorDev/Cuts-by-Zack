@@ -1,0 +1,10 @@
+@use "../utilities/variables" as *;
+@use "../utilities/functions" as *;
+@use "../utilities/mixins" as *;
+@use "../base/typography" as *;
+
+.pricing__header {
+    background-color: $white;
+    margin: 0 rem(10);
+    color: $black;
+}

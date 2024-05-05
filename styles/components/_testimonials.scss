@@ -1,0 +1,36 @@
+@use "../utilities/variables" as *;
+@use "../utilities/functions" as *;
+@use "../utilities/mixins" as *;
+@use "../base/typography" as *;
+
+.testimonial {
+    background-color: $gold;
+    margin: 0 rem(10);
+    font-family: Kanit, sans-serif;
+    padding: rem(10);
+    color: $white;
+}
+.testimonial__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: rem(20);
+    font-weight: 200;
+    text-transform: uppercase;
+    line-height: 0.8;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.testimonial__card-text {
+    color: $white;
+    width: 60%;
+}
+.testimonial__card-img {
+    height: rem(32);
+    width: rem(32);
+    border-radius: 50%;
+}
+.testimonial__card-name {
+    font-size: rem(14);
+}

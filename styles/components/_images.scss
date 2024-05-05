@@ -6,10 +6,11 @@
     display: none;
     @include layout(tablet) {
         display: block;
-        // padding-right: rem(10);
+        padding-right: rem(10);
+        fill: $white;
     }
 }
 
 .hero-content__img {
-    width: 120%;
+    max-width: 100%;
 }

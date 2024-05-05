@@ -11,7 +11,7 @@
     background-color: $black;
     padding: 0 rem(10);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 100vw;
 }
@@ -22,7 +22,7 @@
 }
 #navbar__logo-text {
     color: $white;
-    font-size: x-large;
+    font-size: rem(26);
     font-family: Kanit, sans-serif;
     font-weight: 500;
     font-style: normal;
