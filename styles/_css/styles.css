@@ -3,6 +3,9 @@
 /* ============================================= */
 /*                    COLORS                     */
 /* ============================================= */
+/* ============================================= */
+/*                    FONT                       */
+/* ============================================= */
 /* ===== Mixin ===== */
 /* ===== Example ===== */
 body {
@@ -116,13 +119,11 @@ body {
   font-weight: 200;
   text-transform: uppercase;
   line-height: 0.8;
-  margin-bottom: 10px;
   text-align: center;
 }
 
 .testimonial__card-text {
   color: rgb(248, 248, 248);
-  width: 60%;
 }
 
 .testimonial__card-img {
@@ -135,10 +136,47 @@ body {
   font-size: 0.875rem;
 }
 
-.pricing__header {
+.pricing {
   background-color: rgb(248, 248, 248);
   margin: 0 0.625rem;
   color: #242429;
+}
+
+.pricing__header {
+  margin: 0;
+  text-align: center;
+  font-family: Kanit, sans-serif;
+  font-size: 1.875rem;
+  line-height: 0.8;
+  text-transform: uppercase;
+  padding: 0.625rem;
+}
+
+.pricing__prices--flexed {
+  display: flex;
+  justify-content: space-around;
+  font-family: Kanit, sans-serif;
+  line-height: 1.8;
+  width: 100%;
+}
+
+.pricing__dollars {
+  padding-right: 0.625rem;
+  color: #a58961;
+}
+
+li {
+  list-style: none;
+}
+
+.booking {
+  background-color: #a58961;
+  margin: 0 0.625rem;
+  font-family: Kanit, sans-serif;
+  padding: 0.625rem;
+  color: rgb(248, 248, 248);
+  text-transform: uppercase;
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */

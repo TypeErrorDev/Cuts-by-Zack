@@ -1,0 +1,14 @@
+@use "../utilities/variables" as *;
+@use "../utilities/functions" as *;
+@use "../utilities/mixins" as *;
+@use "../base/typography" as *;
+
+.booking {
+    background-color: $gold;
+    margin: 0 rem(10);
+    font-family: $font;
+    padding: rem(10);
+    color: $white;
+    text-transform: uppercase;
+    text-align: center;
+}
