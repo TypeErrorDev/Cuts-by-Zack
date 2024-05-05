@@ -3,12 +3,24 @@
 @use "../utilities/mixins" as *;
 @use "../base/typography" as *;
 
-.booking {
-    background-color: $white;
+.locations {
+    background-color: $gold;
     margin: 0 rem(10);
     font-family: $font;
     padding: rem(10);
     color: $white;
     text-transform: uppercase;
     text-align: center;
+}
+.locations__shop-hours {
+    cursor: pointer;
+    fill: $white;
+    display: flex;
+    justify-content: space-around;
+}
+.locations__day {
+    padding: 0 18px;
+    background-color: $white;
+    display: none;
+    overflow: hidden;
 }

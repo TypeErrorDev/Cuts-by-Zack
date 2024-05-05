@@ -4,7 +4,9 @@
 @use "../base/typography" as *;
 
 .booking__button {
-    background-color: $white;
+    cursor: pointer;
+    background-color: $gold;
+    color: $white;
     border: none;
     height: rem(50);
     width: rem(190);
@@ -13,4 +15,9 @@
     font-weight: 500;
     text-transform: uppercase;
     padding: rem(10);
+    margin-bottom: rem(10);
+    box-shadow: 3px 3px 3px rgb(36, 36, 41);
+}
+.booking__button:active {
+    box-shadow: inset 3px 3px 3px rgb(36, 36, 41);
 }
