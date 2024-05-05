@@ -1,3 +1,4 @@
+// sticky header
 // When the user scrolls the page, execute myFunction
 window.onscroll = function () {
     myFunction();
@@ -16,4 +17,23 @@ function myFunction() {
     } else {
         navbar.classList.remove("sticky");
     }
+}
+
+// accordian js
+let accordian = document.getElementsByClassName("locations__calendar");
+let i;
+
+for (i = 0; i < accordian.length; i++) {
+    // adds class active
+    accordian[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+
+        // Toggle hidden days
+        let day = this.nextElementSibling;
+        if (day.style.display === "block") {
+            day.style.display = "none";
+        } else {
+            day.style.display = "block";
+        }
+    });
 }
