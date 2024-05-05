@@ -1,0 +1,16 @@
+@use "../utilities/variables" as *;
+@use "../utilities/functions" as *;
+@use "../utilities/mixins" as *;
+@use "../base/typography" as *;
+
+.booking__button {
+    background-color: $white;
+    border: none;
+    height: rem(50);
+    width: rem(190);
+    font-family: $font;
+    font-size: rem(15);
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: rem(10);
+}
