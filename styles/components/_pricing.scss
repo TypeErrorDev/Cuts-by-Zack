@@ -26,8 +26,25 @@
 }
 .pricing__dollars {
     padding-right: rem(10);
-    color: $gold;
+    color: $price;
 }
 li {
     list-style: none;
+}
+
+q:before,
+q:after {
+    display: inline-block;
+    font-size: 1.25em;
+    font-weight: 500;
+    position: relative;
+}
+
+q:before {
+    transform: rotate(4deg);
+}
+
+q:after {
+    top: 0.05em;
+    transform: rotate(-4deg);
 }
