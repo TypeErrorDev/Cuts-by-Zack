@@ -42,6 +42,11 @@ body {
   line-height: 1.6;
   max-width: 80%;
 }
+@media only screen and (min-width: 768px) {
+  #headline-text {
+    font-size: 1.5625rem;
+  }
+}
 
 .navbar__logo--tablet {
   display: none;
@@ -58,6 +63,12 @@ body {
 .locations__img {
   max-width: 80%;
 }
+@media only screen and (min-width: 768px) {
+  .hero-content__img,
+  .locations__img {
+    max-width: 40%;
+  }
+}
 
 .testimonial__card-img {
   margin-top: 0.625rem;
@@ -70,9 +81,11 @@ body {
   overflow: hidden;
   background-color: rgb(36, 36, 41);
   padding: 0 0.625rem;
+  opacity: 0.7;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
+  text-align: center;
   width: 100vw;
 }
 
@@ -139,11 +152,18 @@ body {
   text-transform: uppercase;
   line-height: 0.8;
   text-align: center;
-  max-width: 50%;
+  border-right: 1px solid black;
+}
+@media only screen and (min-width: 768px) {
+  .testimonial__card-first {
+    max-width: 50%;
+  }
 }
 
 .testimonial__card-second {
   display: none;
+  padding-left: 0.625rem;
+  border-right: 1px solid black;
 }
 @media only screen and (min-width: 768px) {
   .testimonial__card-second {
@@ -161,6 +181,7 @@ body {
 .testimonial__card-third {
   display: none;
   max-width: 34.375rem;
+  padding-left: 0.625rem;
 }
 @media only screen and (min-width: 1024px) {
   .testimonial__card-third {
@@ -177,7 +198,6 @@ body {
 
 .testimonial__card-text {
   color: rgb(248, 248, 248);
-  width: 80%;
 }
 
 q:before,

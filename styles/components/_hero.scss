@@ -6,6 +6,7 @@
 .hero-content {
     display: flex;
     flex-direction: column;
+
     background-color: $white;
     align-items: center;
     margin: rem(10) rem(10) 0 rem(10);
@@ -25,4 +26,7 @@
     font-size: rem(13);
     line-height: 1.6;
     max-width: 80%;
+    @include layout(tablet) {
+        font-size: rem(25);
+    }
 }

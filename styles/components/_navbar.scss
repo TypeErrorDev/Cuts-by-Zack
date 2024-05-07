@@ -10,9 +10,11 @@
     overflow: hidden;
     background-color: $black;
     padding: 0 rem(10);
+    opacity: 0.7;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
+    text-align: center;
     width: 100vw;
 }
 
