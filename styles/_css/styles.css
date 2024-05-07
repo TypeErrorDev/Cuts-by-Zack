@@ -11,6 +11,12 @@
 body {
   background-color: rgb(36, 36, 41);
 }
+@media only screen and (min-width: 1024px) {
+  body {
+    max-width: 80%;
+    margin: auto;
+  }
+}
 
 .hero-content {
   display: flex;
@@ -133,13 +139,11 @@ body {
   text-transform: uppercase;
   line-height: 0.8;
   text-align: center;
-  max-width: 34.375rem;
-  outline: 1px solid red;
+  max-width: 50%;
 }
 
 .testimonial__card-second {
   display: none;
-  outline: 1px solid red;
 }
 @media only screen and (min-width: 768px) {
   .testimonial__card-second {
@@ -151,14 +155,12 @@ body {
     text-transform: uppercase;
     line-height: 0.8;
     text-align: center;
-    max-width: 34.375rem;
   }
 }
 
 .testimonial__card-third {
   display: none;
   max-width: 34.375rem;
-  outline: 1px solid red;
 }
 @media only screen and (min-width: 1024px) {
   .testimonial__card-third {

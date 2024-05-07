@@ -2,4 +2,8 @@
 @use "../utilities/mixins" as *;
 body {
     background-color: $black;
+    @include layout(desktop) {
+        max-width: 80%;
+        margin: auto;
+    }
 }
