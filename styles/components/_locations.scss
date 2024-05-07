@@ -12,21 +12,43 @@
     text-transform: uppercase;
     text-align: center;
 }
+
 .locations__shop-hours {
-    cursor: pointer;
     fill: $white;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
+    align-items: center;
+    width: auto;
 }
-.locations_calendar {
-    transition: max-height 0.4s ease-out;
+
+.locations__calendar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    @include layout(tablet) {
+        max-width: 400px;
+    }
 }
+
+.locations_calendar-container {
+    display: flex;
+    flex-direction: row;
+}
+
 .locations__day {
     padding: 0 18px;
     background-color: $white;
-    display: none;
+    color: $black;
     overflow: hidden;
+    width: rem(96);
+    outline: 1px solid $black;
+    & p {
+        margin: 0;
+    }
 }
+
 .active,
 .locations_calendar:hover {
     background-color: #ccc;
