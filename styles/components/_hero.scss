@@ -25,7 +25,8 @@
     font-family: Montserrat, sans-serif;
     font-size: rem(13);
     line-height: 1.6;
-    max-width: 80%;
+    max-width: 100%;
+    text-align: start;
     @include layout(tablet) {
         font-size: rem(25);
     }

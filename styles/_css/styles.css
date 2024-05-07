@@ -40,7 +40,8 @@ body {
   font-family: Montserrat, sans-serif;
   font-size: 0.8125rem;
   line-height: 1.6;
-  max-width: 80%;
+  max-width: 100%;
+  text-align: start;
 }
 @media only screen and (min-width: 768px) {
   #headline-text {
@@ -61,7 +62,7 @@ body {
 
 .hero-content__img,
 .locations__img {
-  max-width: 80%;
+  max-width: 100%;
 }
 @media only screen and (min-width: 768px) {
   .hero-content__img,
@@ -152,11 +153,11 @@ body {
   text-transform: uppercase;
   line-height: 0.8;
   text-align: center;
-  border-right: 1px solid black;
 }
 @media only screen and (min-width: 768px) {
   .testimonial__card-first {
     max-width: 50%;
+    border-right: 1px solid black;
   }
 }
 

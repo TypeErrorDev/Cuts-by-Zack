@@ -13,7 +13,7 @@
 
 .hero-content__img,
 .locations__img {
-    max-width: 80%;
+    max-width: 100%;
     @include layout(tablet) {
         max-width: 40%;
     }

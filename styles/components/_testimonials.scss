@@ -23,9 +23,9 @@
     text-transform: uppercase;
     line-height: 0.8;
     text-align: center;
-    border-right: 1px solid black;
     @include layout(tablet) {
         max-width: 50%;
+        border-right: 1px solid black;
     }
 }
 .testimonial__card-second {
