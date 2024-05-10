@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09ca1242-92dd-4449-a4f5-4bb13275bd60" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/res/ZackHero.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/_css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/_css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_css/styles.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/components/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/components/_hero.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/components/_images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/components/_images.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/components/_locations.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/components/_locations.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/components/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/components/_navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/components/_pricing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/components/_pricing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/components/_testimonials.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/components/_testimonials.scss" afterDir="false" />
-    </list>
+    <list default="true" id="09ca1242-92dd-4449-a4f5-4bb13275bd60" name="Changes" comment="started to fine tune the layout on desktop and tablet." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,11 +86,24 @@
       <workItem from="1715228858023" duration="546000" />
       <workItem from="1715229420866" duration="48000" />
       <workItem from="1715229549227" duration="92000" />
-      <workItem from="1715229651527" duration="9394000" />
+      <workItem from="1715229651527" duration="10070000" />
     </task>
+    <task id="LOCAL-00001" summary="started to fine tune the layout on desktop and tablet.">
+      <option name="closed" value="true" />
+      <created>1715324576937</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715324576937</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="started to fine tune the layout on desktop and tablet." />
+    <option name="LAST_COMMIT_MESSAGE" value="started to fine tune the layout on desktop and tablet." />
   </component>
 </project>
