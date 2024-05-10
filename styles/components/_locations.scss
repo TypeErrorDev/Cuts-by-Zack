@@ -12,7 +12,10 @@
     text-transform: uppercase;
     text-align: center;
 }
-
+.locations__container {
+    display: flex;
+    flex-direction: row;
+}
 .locations__shop-hours {
     fill: $white;
     display: flex;

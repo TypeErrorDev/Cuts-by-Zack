@@ -1,192 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="../styles/_css/styles.css" />
-        <link
-            rel="shortcut icon"
+<head>
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <link href="../styles/_css/styles.css" rel="stylesheet"/>
+    <link
             href="data:image/svg+xml, %3Csvg class='navbar__svg' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512' width='50' %3E%3Cpath id='navbar__svg--green' d='M256 192l-39.5-39.5c4.9-12.6 7.5-26.2 7.5-40.5C224 50.1 173.9 0 112 0S0 50.1 0 112s50.1 112 112 112c14.3 0 27.9-2.7 40.5-7.5L192 256l-39.5 39.5c-12.6-4.9-26.2-7.5-40.5-7.5C50.1 288 0 338.1 0 400s50.1 112 112 112s112-50.1 112-112c0-14.3-2.7-27.9-7.5-40.5L499.2 76.8c7.1-7.1 7.1-18.5 0-25.6c-28.3-28.3-74.1-28.3-102.4 0L256 192zm22.6 150.6L396.8 460.8c28.3 28.3 74.1 28.3 102.4 0c7.1-7.1 7.1-18.5 0-25.6L342.6 278.6l-64 64zM64 112a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm48 240a48 48 0 1 1 0 96 48 48 0 1 1 0-96z' /%3E%3C/svg%3E"
+            rel="shortcut icon"
             type="image/x-icon"
+    />
+    <title>Blackington's</title>
+</head>
+<body>
+<!-- navbar -->
+<nav id="navbar">
+    <div class="navbar__logo">
+        <p id="navbar__logo-text">Blackington's</p>
+        <svg
+                class="navbar__logo--tablet"
+                viewBox="0 0 512 512"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+        >
+            <path
+                    d="M256 192l-39.5-39.5c4.9-12.6 7.5-26.2 7.5-40.5C224 50.1 173.9 0 112 0S0 50.1 0 112s50.1 112 112 112c14.3 0 27.9-2.7 40.5-7.5L192 256l-39.5 39.5c-12.6-4.9-26.2-7.5-40.5-7.5C50.1 288 0 338.1 0 400s50.1 112 112 112s112-50.1 112-112c0-14.3-2.7-27.9-7.5-40.5L499.2 76.8c7.1-7.1 7.1-18.5 0-25.6c-28.3-28.3-74.1-28.3-102.4 0L256 192zm22.6 150.6L396.8 460.8c28.3 28.3 74.1 28.3 102.4 0c7.1-7.1 7.1-18.5 0-25.6L342.6 278.6l-64 64zM64 112a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm48 240a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"
+            />
+        </svg>
+    </div>
+</nav>
+<!-- hero section -->
+<section class="hero-content">
+    <div class="headline-container">
+        <h1 class="hero-headline" id="hero-headline">
+            The last of a dying breed
+        </h1>
+    </div>
+    <div class="headline-text">
+        <p id="headline-text">
+            Blending artistry with classic barbering techniques.
+            Precision cuts and modern styles delivered with personality
+            while transforming looks one client at a time
+        </p>
+    </div>
+    <div class="hero-img">
+        <img
+                alt="Zack cutting hair"
+                class="hero-content__img"
+                src="./res/ZackHero.svg"
         />
-        <title>Cuts By Zack</title>
-    </head>
-    <body>
-        <!-- navbar -->
-        <nav id="navbar">
-            <div class="navbar__logo">
-                <svg
-                    class="navbar__logo--tablet"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 512 512"
-                    width="32"
-                >
-                    <path
-                        d="M256 192l-39.5-39.5c4.9-12.6 7.5-26.2 7.5-40.5C224 50.1 173.9 0 112 0S0 50.1 0 112s50.1 112 112 112c14.3 0 27.9-2.7 40.5-7.5L192 256l-39.5 39.5c-12.6-4.9-26.2-7.5-40.5-7.5C50.1 288 0 338.1 0 400s50.1 112 112 112s112-50.1 112-112c0-14.3-2.7-27.9-7.5-40.5L499.2 76.8c7.1-7.1 7.1-18.5 0-25.6c-28.3-28.3-74.1-28.3-102.4 0L256 192zm22.6 150.6L396.8 460.8c28.3 28.3 74.1 28.3 102.4 0c7.1-7.1 7.1-18.5 0-25.6L342.6 278.6l-64 64zM64 112a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm48 240a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"
-                    />
-                </svg>
-                <p id="navbar__logo-text">Cuts <em>by</em> Zack</p>
-            </div>
-        </nav>
-        <!-- hero section -->
-        <section class="hero-content">
-            <div class="headline-container">
-                <h1 class="hero-headline" id="hero-headline">
-                    The last of a dying breed.
-                </h1>
-            </div>
-            <div class="headline-text">
-                <p id="headline-text">
-                    Blending artistry with classic barbering techniques.
-                    Precision cuts and modern styles delivered with personality
-                    while transforming looks one client at a time.
-                </p>
-            </div>
-            <div class="hero-img">
-                <img
-                    class="hero-content__img"
-                    src="./res/Zack_hero.svg"
-                    alt="Zack cutting hair"
-                />
-            </div>
-        </section>
-        <!-- testimonials -->
-        <section class="testimonial">
-            <!-- First testimonial -->
-            <div class="testimonial__card-first">
-                <q class="testimonial__card-text">
-                    Been coming to Zack for a bit, he's an awesome guy with
-                    skills on those clippers! <em>MUST</em> go to him
-                </q>
-                <img
-                    src="https://assets-global.website-files.com/65bb58556ffad320f8842866/65bb58556ffad320f88428ec_32.jpg"
-                    alt="profile pic"
-                    class="testimonial__card-img"
-                />
-                <p class="testimonial__card-name">Robert Roberts</p>
-            </div>
-            <!-- Second testimonial -->
-            <div class="testimonial__card-second">
-                <q class="testimonial__card-text">
-                    Zack is the man! Clean cuts; He did me up right! Will
-                    definitely book with him again!
-                </q>
-                <img
-                    src="https://assets-global.website-files.com/65bb58556ffad320f8842866/65bb58556ffad320f88428ec_32.jpg"
-                    alt="profile pic"
-                    class="testimonial__card-img"
-                />
-                <p class="testimonial__card-name">Robert Roberts</p>
-            </div>
-            <!-- Third testimonial -->
-            <div class="testimonial__card-third">
-                <q class="testimonial__card-text">
-                    Slim_Fadey hook all of my groomsmen up! We will always get
-                    our haircuts with Zack!
-                </q>
-                <img
-                    src="https://assets-global.website-files.com/65bb58556ffad320f8842866/65bb58556ffad320f88428ec_32.jpg"
-                    alt="profile pic"
-                    class="testimonial__card-img"
-                />
-                <p class="testimonial__card-name">Robert Roberts</p>
-            </div>
-        </section>
-        <!-- pricing -->
-        <section class="pricing">
-            <h2 class="pricing__header">
-                Get the best price<br />
-                in the city!
-            </h2>
-            <div class="pricing__prices--flexed">
-                <ul class="pricing__list">
-                    <li>Basic Cut</li>
-                    <li>Skin Fade</li>
-                    <li>Hot Towel Shave</li>
-                    <li>Hot Towel Head Shave</li>
-                    <li>Beard Trim/Line Up</li>
-                    <li>Basic Beard Trim</li>
-                    <li>Shampoo/Condition</li>
-                    <li>Facial Treatment</li>
-                    <li>Special Event Package</li>
-                </ul>
-                <ul class="pricing__dollars">
-                    <li>$30</li>
-                    <li>$35</li>
-                    <li>$40</li>
-                    <li>$50</li>
-                    <li>$35</li>
-                    <li>$30</li>
-                    <li>$15</li>
-                    <li>$70</li>
-                    <li>$85</li>
-                </ul>
-            </div>
-        </section>
-        <!-- locations -->
-        <section class="locations">
-            <div class="locations__container">
-                <img
-                    class="locations__img"
-                    src="./res/Zack_booking.svg"
-                    alt="Zacks booking picture"
-                />
-                <!-- Location Hours -->
-                <div class="locations__shop-hours">
-                    <div>
-                        <p>
-                            Hours Available
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 448 512"
-                                width="20"
-                                class="locations__caret"
-                            >
-                                <path
-                                    d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"
-                                />
-                            </svg>
-                        </p>
-                    </div>
-                    <div class="locations__calendar">
-                        <div class="locations__day">
-                            <p>Monday</p>
-                            <p>8AM - 4PM</p>
-                        </div>
-                        <div class="locations__day">
-                            <p>Tuesday</p>
-                            <p>8AM - 4PM</p>
-                        </div>
-                        <div class="locations__day">
-                            <p>Wednesday</p>
-                            <p>8AM - 4PM</p>
-                        </div>
-                        <div class="locations__day">
-                            <p>Thursday</p>
-                            <p>8AM - 4PM</p>
-                        </div>
-                        <div class="locations__day">
-                            <p>Friday</p>
-                            <p>8AM - 4PM</p>
-                        </div>
-                        <div class="locations__day">
-                            <p>Saturday</p>
-                            <p>8AM - 4PM</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- booking -->
-        <section class="booking">
-            <div>
-                <a
-                    href="https://getsquire.com/booking/book/silver-city-barber-shop-silverdale/barber/zack-blackington/services"
-                    target="_blank"
-                    ><button class="booking__button">book your cuts</button></a
-                >
-            </div>
-        </section>
-    </body>
-    <script src="./js/app.js"></script>
+
+    </div>
+</section>
+
+<!-- testimonials -->
+<!--        <section class="testimonial">-->
+<!--            &lt;!&ndash; First testimonial &ndash;&gt;-->
+<!--            <div class="testimonial__card-first">-->
+<!--                <q class="testimonial__card-text">-->
+<!--                    Been coming to Zack for a bit, he's an awesome guy with-->
+<!--                    skills on those clippers! <em>MUST</em> go to him-->
+<!--                </q>-->
+<!--                <img-->
+<!--                    src="https://randomuser.me/api/portraits/men/59.jpg"-->
+<!--                    alt="profile pic"-->
+<!--                    class="testimonial__card-img"-->
+<!--                />-->
+<!--                <p class="testimonial__card-name">Carter Duncan</p>-->
+<!--            </div>-->
+<!--            &lt;!&ndash; Second testimonial &ndash;&gt;-->
+<!--            <div class="testimonial__card-second">-->
+<!--                <q class="testimonial__card-text">-->
+<!--                    Zack is the man! Clean cuts; He did me up right! Will-->
+<!--                    definitely book with him again!-->
+<!--                </q>-->
+<!--                <img-->
+<!--                    src="https://randomuser.me/api/portraits/men/77.jpg"-->
+<!--                    alt="profile pic"-->
+<!--                    class="testimonial__card-img"-->
+<!--                />-->
+<!--                <p class="testimonial__card-name">Jeremy Warren</p>-->
+<!--            </div>-->
+<!--            &lt;!&ndash; Third testimonial &ndash;&gt;-->
+<!--            <div class="testimonial__card-third">-->
+<!--                <q class="testimonial__card-text">-->
+<!--                    Slim_Fadey hook all of my groomsmen up! We will always get-->
+<!--                    our haircuts with Zack!-->
+<!--                </q>-->
+<!--                <img-->
+<!--                    src="https://randomuser.me/api/portraits/men/20.jpg"-->
+<!--                    alt="profile pic"-->
+<!--                    class="testimonial__card-img"-->
+<!--                />-->
+<!--                <p class="testimonial__card-name">Todd Pierce</p>-->
+<!--            </div>-->
+<!--        </section>-->
+<!-- pricing -->
+<section class="pricing">
+    <h2 class="pricing__header">
+        Best prices in <br/>
+        Silverdale!
+    </h2>
+    <div class="pricing__prices--flexed">
+        <ul class="pricing__list">
+            <li>Basic Cut</li>
+            <li>Skin Fade</li>
+            <li>Hot Towel Shave</li>
+            <li>Hot Towel Head Shave</li>
+            <li>Beard Trim/Line Up</li>
+            <li>Basic Beard Trim</li>
+            <li>Shampoo/Condition</li>
+            <li>Facial Treatment</li>
+            <li>Special Event Package</li>
+        </ul>
+        <ul class="pricing__dollars">
+            <li>$30</li>
+            <li>$35</li>
+            <li>$40</li>
+            <li>$50</li>
+            <li>$35</li>
+            <li>$30</li>
+            <li>$15</li>
+            <li>$70</li>
+            <li>$85</li>
+        </ul>
+    </div>
+</section>
+<!-- locations -->
+<!--        <section class="locations">-->
+<!--            <div class="locations__container">-->
+<!--                <img-->
+<!--                    class="locations__img"-->
+<!--                    src="./res/Zack_booking.svg"-->
+<!--                    alt="Zacks booking picture"-->
+<!--                />-->
+<!--                &lt;!&ndash; Location Hours &ndash;&gt;-->
+<!--                <div class="locations__shop-hours">-->
+<!--                    <div>-->
+<!--                        <p>-->
+<!--                            Hours Available-->
+<!--                            <svg-->
+<!--                                xmlns="http://www.w3.org/2000/svg"-->
+<!--                                viewBox="0 0 448 512"-->
+<!--                                width="20"-->
+<!--                                class="locations__caret"-->
+<!--                            >-->
+<!--                                <path-->
+<!--                                    d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"-->
+<!--                                />-->
+<!--                            </svg>-->
+<!--                        </p>-->
+<!--                    </div>-->
+<!--                    <div class="locations__calendar">-->
+<!--                        <div class="locations__day">-->
+<!--                            <p>Monday</p>-->
+<!--                            <p>8AM - 4PM</p>-->
+<!--                        </div>-->
+<!--                        <div class="locations__day">-->
+<!--                            <p>Tuesday</p>-->
+<!--                            <p>8AM - 4PM</p>-->
+<!--                        </div>-->
+<!--                        <div class="locations__day">-->
+<!--                            <p>Wednesday</p>-->
+<!--                            <p>8AM - 4PM</p>-->
+<!--                        </div>-->
+<!--                        <div class="locations__day">-->
+<!--                            <p>Thursday</p>-->
+<!--                            <p>8AM - 4PM</p>-->
+<!--                        </div>-->
+<!--                        <div class="locations__day">-->
+<!--                            <p>Friday</p>-->
+<!--                            <p>8AM - 4PM</p>-->
+<!--                        </div>-->
+<!--                        <div class="locations__day">-->
+<!--                            <p>Saturday</p>-->
+<!--                            <p>8AM - 4PM</p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </section>-->
+<!-- booking -->
+<section class="booking">
+    <div>
+        <a
+                href="https://getsquire.com/booking/book/silver-city-barber-shop-silverdale/barber/zack-blackington/services"
+                target="_blank"
+        >
+            <button class="booking__button">book your cuts</button>
+        </a
+        >
+    </div>
+</section>
+</body>
+<script src="./js/app.js"></script>
 </html>

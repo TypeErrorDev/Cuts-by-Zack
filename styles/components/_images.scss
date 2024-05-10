@@ -11,7 +11,16 @@
     }
 }
 
-.hero-content__img,
+.hero-content__img{
+    width: 80%;
+    background-color: $white;
+    align-items: center;
+    margin: rem(10) rem(10) 0 rem(10);
+    padding: 0 rem(10) rem(15);
+    @include layout(tablet){
+        max-width: 80%;
+    }
+}
 .locations__img {
     max-width: 100%;
     @include layout(tablet) {

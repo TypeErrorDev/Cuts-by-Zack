@@ -25,23 +25,51 @@ body {
   align-items: center;
   margin: 0.625rem 0.625rem 0 0.625rem;
   padding: 0 0.625rem 0.9375rem;
+  background-color: rgb(248, 248, 248);
+  align-items: center;
+  margin: 0.625rem 0.625rem 0 0.625rem;
+  padding: 0 0.625rem 0.9375rem;
+}
+@media only screen and (min-width: 768px) {
+  .hero-content {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .headline-container, .headline-text, .hero-img {
+    flex-basis: 50%;
+    flex-grow: 1;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .headline-container {
+    width: 100%;
+  }
 }
 
 .hero-headline {
   font-family: Kanit, sans-serif;
-  font-size: 2.75rem;
+  font-size: 1.875rem;
   text-transform: uppercase;
-  line-height: 0.8;
+  line-height: 1;
   margin-bottom: 0;
   text-align: center;
+}
+@media only screen and (min-width: 768px) {
+  .hero-headline {
+    font-size: 3.125rem;
+  }
 }
 
 #headline-text {
   font-family: Montserrat, sans-serif;
-  font-size: 0.8125rem;
+  font-size: 1.25rem;
   line-height: 1.6;
   max-width: 100%;
-  text-align: start;
+  text-align: center;
 }
 @media only screen and (min-width: 768px) {
   #headline-text {
@@ -60,12 +88,23 @@ body {
   }
 }
 
-.hero-content__img,
+.hero-content__img {
+  width: 80%;
+  background-color: rgb(248, 248, 248);
+  align-items: center;
+  margin: 0.625rem 0.625rem 0 0.625rem;
+  padding: 0 0.625rem 0.9375rem;
+}
+@media only screen and (min-width: 768px) {
+  .hero-content__img {
+    max-width: 80%;
+  }
+}
+
 .locations__img {
   max-width: 100%;
 }
 @media only screen and (min-width: 768px) {
-  .hero-content__img,
   .locations__img {
     max-width: 40%;
   }
@@ -75,16 +114,10 @@ body {
   margin-top: 0.625rem;
 }
 
-/* ============================================= */
-/*               NAVBAR STYLES                   */
-/* ============================================= */
 #navbar {
   overflow: hidden;
   background-color: rgb(36, 36, 41);
-  padding: 0 0.625rem;
-  opacity: 0.7;
   display: flex;
-  justify-content: start;
   align-items: center;
   text-align: center;
   width: 100vw;
@@ -94,6 +127,11 @@ body {
   display: flex;
   flex-direction: row;
 }
+@media only screen and (min-width: 768px) {
+  .navbar__logo {
+    justify-content: center;
+  }
+}
 
 #navbar__logo-text {
   color: rgb(248, 248, 248);
@@ -101,6 +139,7 @@ body {
   font-family: Kanit, sans-serif;
   font-weight: 500;
   font-style: normal;
+  margin-right: 0.625rem;
 }
 
 #navbar__logo-text em {
@@ -112,9 +151,6 @@ body {
   padding-right: 1.875rem;
 }
 
-/* ============================================= */
-/*               NAVBAR STYLES                   */
-/* ============================================= */
 .sticky {
   position: fixed;
   top: 0;
@@ -158,6 +194,7 @@ body {
   .testimonial__card-first {
     max-width: 50%;
     border-right: 1px solid black;
+    padding-right: 0.625rem;
   }
 }
 
@@ -176,6 +213,13 @@ body {
     text-transform: uppercase;
     line-height: 0.8;
     text-align: center;
+    border: none;
+    padding-right: 0.625rem;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .testimonial__card-second {
+    border-right: 1px solid black;
   }
 }
 
@@ -244,10 +288,15 @@ q:after {
   text-transform: uppercase;
   padding: 0.625rem;
 }
+@media only screen and (min-width: 768px) {
+  .pricing__header {
+    font-size: 3.75rem;
+  }
+}
 
 .pricing__prices--flexed {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   font-family: Kanit, sans-serif;
   line-height: 1.8;
   width: 100%;
@@ -255,10 +304,12 @@ q:after {
 
 .pricing__list {
   padding: 0;
+  font-size: 1.25rem;
 }
 
 .pricing__dollars {
   padding: 0;
+  font-size: 1.25rem;
   color: rgb(122, 87, 39);
 }
 
@@ -304,6 +355,11 @@ li {
   color: rgb(248, 248, 248);
   text-transform: uppercase;
   text-align: center;
+}
+
+.locations__container {
+  display: flex;
+  flex-direction: row;
 }
 
 .locations__shop-hours {

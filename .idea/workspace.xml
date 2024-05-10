@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="09ca1242-92dd-4449-a4f5-4bb13275bd60" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/res/ZackHero.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/_css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/_css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_css/styles.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/components/_hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/components/_hero.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/components/_images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/components/_images.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/components/_locations.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/components/_locations.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/components/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/components/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/components/_pricing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/components/_pricing.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/components/_testimonials.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/components/_testimonials.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;TypeErrorDev&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/TypeErrorDev/Cuts-by-Zack.git&quot;,
+    &quot;accountId&quot;: &quot;da2ad6b3-e168-4657-bc7c-a400e20c5d03&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -31,20 +50,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaScript Debug.index.html.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Metro\OneDrive\Documents\GitHub\Cuts-by-Zack\src\res" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Cuts-by-Zack/src/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
@@ -54,6 +78,13 @@
         <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-WS-241.15989.105" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -65,6 +96,10 @@
       <updated>1715117402258</updated>
       <workItem from="1715117406136" duration="52000" />
       <workItem from="1715123889601" duration="1055000" />
+      <workItem from="1715228858023" duration="546000" />
+      <workItem from="1715229420866" duration="48000" />
+      <workItem from="1715229549227" duration="92000" />
+      <workItem from="1715229651527" duration="9394000" />
     </task>
     <servers />
   </component>
