@@ -1,0 +1,16 @@
+@use "../utilities/variables" as *;
+@use "../utilities/functions" as *;
+@use "../utilities/mixins" as *;
+@use "../base/typography" as *;
+
+
+.video-player {
+  max-width: rem(750);
+  position: relative;
+  overflow: hidden;
+  //border-radius: rem(75);
+}
+
+.video{
+  width: 100%;
+}

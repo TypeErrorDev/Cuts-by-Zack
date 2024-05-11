@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09ca1242-92dd-4449-a4f5-4bb13275bd60" name="Changes" comment="started to fine tune the layout on desktop and tablet." />
+    <list default="true" id="09ca1242-92dd-4449-a4f5-4bb13275bd60" name="Changes" comment="started to fine tune the layout on desktop and tablet.">
+      <change afterPath="$PROJECT_DIR$/src/res/ZacksVideo.mov" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/components/_video.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/_css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/_css/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/components/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/components/_index.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,24 +42,28 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2g9ktoZleOc6wjsUyyw7hBmvHbN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "JavaScript Debug.index.html.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Metro\OneDrive\Documents\GitHub\Cuts-by-Zack\src\res" />
@@ -86,7 +99,8 @@
       <workItem from="1715228858023" duration="546000" />
       <workItem from="1715229420866" duration="48000" />
       <workItem from="1715229549227" duration="92000" />
-      <workItem from="1715229651527" duration="10070000" />
+      <workItem from="1715229651527" duration="10704000" />
+      <workItem from="1715386345310" duration="2965000" />
     </task>
     <task id="LOCAL-00001" summary="started to fine tune the layout on desktop and tablet.">
       <option name="closed" value="true" />
@@ -103,6 +117,7 @@
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="started to fine tune the layout on desktop and tablet." />
     <option name="LAST_COMMIT_MESSAGE" value="started to fine tune the layout on desktop and tablet." />
   </component>

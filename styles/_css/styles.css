@@ -404,4 +404,14 @@ li {
   background-color: #ccc;
 }
 
+.video-player {
+  max-width: 46.875rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.video {
+  width: 100%;
+}
+
 /*# sourceMappingURL=styles.css.map */

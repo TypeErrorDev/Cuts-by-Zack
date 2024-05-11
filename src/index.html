@@ -42,13 +42,23 @@
             while transforming looks one client at a time
         </p>
     </div>
-    <div class="hero-img">
-        <img
-                alt="Zack cutting hair"
-                class="hero-content__img"
-                src="./res/ZackHero.svg"
-        />
+    <!--    <div class="hero-img">-->
+    <!--        <img-->
+    <!--                alt="Zack cutting hair"-->
+    <!--                class="hero-content__img"-->
+    <!--                src="./res/ZackHero.svg"-->
+    <!--        />-->
 
+    <!--    </div>-->
+    <div class="video-player">
+        <video class="video" src="./res/ZacksVideo.mov"></video>
+        <div class="player-controls">
+            <button class="play-button" title="Play">►</button>
+        </div>
+    </div>
+    <input class="volume" max="1" min="0" step="0.01" type="range" value="1">
+    <div class="time">
+        <span class="current">0:00</span> / <span class="duration">0:00</span>
     </div>
 </section>
 

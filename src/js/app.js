@@ -19,4 +19,32 @@ function myFunction() {
     }
 }
 
-// accordian js
+// video scripts
+const videoPlayer = document.querySelector('.video-player');
+const video = videoPlayer.querySelector('.video');
+const playButton = videoPlayer.querySelector('.play-button');
+const volume = videoPlayer.querySelector('.volume');
+const currentTimeElement = videoPlayer.querySelector('.current');
+const durationTimeElement = videoPlayer.querySelector('.duration');
+
+
+// Play and pause buttons
+playButton.addEventListener('click',(e)=>{
+    if(video.paused){
+        video.play()
+        e.target.textContent = '❚ ❚'
+    }else{
+        video.pause();
+        e.target.textContent = '►'
+    }
+})
+
+// Volume
+volume.addEventListener('mousemove', (e)=>{
+    video.volume = e.target.value;
+})
+
+// Current time and duration
+const currentTime = ()=>{
+    let currentMinutes = Math.floor(video.currentTime / 60)
+}
